@@ -1,5 +1,5 @@
 import gym
-from ddpg_learn import DDPGagent
+from ddpg_learn_Naive import DDPGagent
 import tensorflow.keras.backend as K
 def main():
     for trial in range(20,40):
