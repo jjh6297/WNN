@@ -1,6 +1,3 @@
-# DDPG Actor (tf2 subclassing version: using chain rule to train Actor)
-# coded by St.Watermelon
-
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -1,6 +1,3 @@
-# DDPG load and play (tf2 subclassing API version)
-# coded by St.Watermelon
-
 import gym
 from ddpg_learn import DDPGagent
 import tensorflow as tf
