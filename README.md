@@ -9,7 +9,7 @@ Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights
 
 <!-- dependencies: -->
 
-| Library | Known Working | Known Not Working |
+| Library | Known Working | Known Not Working |  
 | tensorflow | 2.3.0, 2.9.0 | <= 2.0 |
 <!-- | tensorflow | 2.3.0, 2.4.1 | <= 2.0 | -->
 
