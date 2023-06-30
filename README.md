@@ -47,3 +47,13 @@ Training with WNN on CIFAR10:
 python CIFAR10_with_WNN.py
 ```
 
+## Citation
+
+```
+@inproceedings{jang2023learning,
+  title={Learning to Boost Training by Periodic Nowcasting Near Future Weights},
+  author={Jang, Jinhyeok and Yun, Woo-han and Kim, Won Hwa and Yoon, Youngwoo and Kim, Jaehong and Lee, Jaeyeon and Han, ByungOk},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2023}
+}
+```
