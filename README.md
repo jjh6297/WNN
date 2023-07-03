@@ -20,6 +20,13 @@ We validate the generalization capability of WNN under various tasks, and demons
   <img src="https://github.com/jjh6297/WNN/blob/main/Figs/thumbnail_landscape.png"/>
 </p>
 
+### WNN Architecture
+
+<p align="center">
+  <img src="https://github.com/jjh6297/WNN/blob/main/Figs/wnn_architecture.png"/>
+</p>
+
+
 ### Dependency
 
 
