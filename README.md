@@ -82,7 +82,7 @@ python CIFAR10_with_WNN.py
 
 ## Slides
 
-<a href="Figs/ICML2023-poster_WNN_v1.0.pdf">Slides for ICML2023</a>
+<a href="Figs/icml2023_slides.pdf">Slides for ICML2023</a>
 
 ## Citation
 
