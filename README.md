@@ -22,6 +22,10 @@ We validate the generalization capability of WNN under various tasks, and demons
 
 ### WNN Architecture
 
+WNN is composed of simple two-stream networks that use fully-connected
+layers and an activation network. Feature vectors from those two networks are unified to a feature vector and it is passed through a
+fully-connected layer. The predicted future weight parameters are obtained by adding outputs and input weight parameters.
+
 <p align="center">
   <img src="https://github.com/jjh6297/WNN/blob/main/Figs/wnn_architecture.png"/>
 </p>
@@ -38,6 +42,7 @@ We validate the generalization capability of WNN under various tasks, and demons
 
 
 ### Usage
+
 We provide a simple plug-in source code that can be added to your source code by using a callback function extending tf.keras.callbacks.Callback:
 <!---WNN can be easily used as a callback function extending tf.keras.callbacks.Callback: -->
 ```python
