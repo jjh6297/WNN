@@ -80,6 +80,10 @@ python CIFAR10_with_WNN.py
 
 ![alt text](https://github.com/jjh6297/WNN/blob/main/Figs/ICML2023-poster_WNN_v1.0.png?raw=true)
 
+## Slides
+
+<a href="Figs/ICML2023-poster_WNN_v1.0.pdf">Slides for ICML2023</a>
+
 ## Citation
 
 ```
