@@ -16,7 +16,10 @@ Significant efforts have been made to make the training more efficient such as m
 Experimental results show that WNN can significantly save actual time cost for training with an additional marginal time to train WNN.
 We validate the generalization capability of WNN under various tasks, and demonstrate that it works well even for unseen tasks. 
 
-![alt text](https://github.com/jjh6297/WNN/blob/main/Figs/thumbnail_landscape.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/jjh6297/WNN/blob/main/Figs/thumbnail_landscape.png"/>
+</p>
 
 ### Dependency
 
