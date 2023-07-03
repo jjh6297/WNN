@@ -3,8 +3,9 @@
 
 Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights"]
 
-
 ### Abstract
+
+![alt text](https://github.com/jjh6297/WNN/blob/main/Figs/ICML2023-poster_WNN_v1.0.png?raw=true)
 
 Recent complicated problems require large-scale datasets and complex model architectures, however, it is difficult to train such large networks due to high computational issues. 
 Significant efforts have been made to make the training more efficient such as momentum, learning rate scheduling, weight regularization, and meta-learning. Based on our observations on 1) high correlation between past weights and future weights, 2) conditions for beneficial weight prediction, and 3) feasibility of weight prediction, we propose a more general framework by intermittently skipping a handful of epochs by periodically forecasting near future weights, i.e., a Weight Nowcaster Network (WNN). As an add-on module, WNN predicts the future weights to make the learning process faster regardless of tasks and architectures.
