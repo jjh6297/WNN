@@ -1,9 +1,12 @@
 
-
-
 # Weight Nowcasting Network (WNN)
 
-Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights"]
+<!---Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights"]-->
+
+### Updates
+
+- 03/07/2023: Project page built
+
 
 ### Abstract
 
