@@ -38,7 +38,8 @@ We validate the generalization capability of WNN under various tasks, and demons
 
 
 ### Usage
-WNN can be easily used as a callback function extending tf.keras.callbacks.Callback:
+We provide a simple plug-in source code that can be added to your source code by using a callback function extending tf.keras.callbacks.Callback:
+<!---WNN can be easily used as a callback function extending tf.keras.callbacks.Callback: -->
 ```python
 import tensorflow as tf
 import tensorflow.keras
