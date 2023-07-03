@@ -5,10 +5,6 @@
 
 Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights"]
 
-### ICML 2023 Poster
-
-![alt text](https://github.com/jjh6297/WNN/blob/main/Figs/ICML2023-poster_WNN_v1.0.png?raw=true)
-
 ### Abstract
 
 Recent complicated problems require large-scale datasets and complex model architectures, however, it is difficult to train such large networks due to high computational issues. 
@@ -65,6 +61,8 @@ python CIFAR10_with_WNN.py
 ```
 
 ## Poster
+
+![alt text](https://github.com/jjh6297/WNN/blob/main/Figs/ICML2023-poster_WNN_v1.0.png?raw=true)
 
 ## Citation
 
