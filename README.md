@@ -3,12 +3,12 @@
 
 <!---Code for ["Learning to Boost Training by Periodic Nowcasting Near Future Weights"]-->
 
-### Updates
+## Updates
 
 - 03/07/2023: Project page built
 
 
-### Abstract
+## Abstract
 
 Recent complicated problems require large-scale datasets and complex model architectures, however, it is difficult to train such large networks due to high computational issues. 
 Significant efforts have been made to make the training more efficient such as momentum, learning rate scheduling, weight regularization, and meta-learning. Based on our observations on 1) high correlation between past weights and future weights, 2) conditions for beneficial weight prediction, and 3) feasibility of weight prediction, we propose a more general framework by intermittently skipping a handful of epochs by periodically forecasting near future weights, i.e., a Weight Nowcaster Network (WNN). As an add-on module, WNN predicts the future weights to make the learning process faster regardless of tasks and architectures.
@@ -20,7 +20,7 @@ We validate the generalization capability of WNN under various tasks, and demons
   <img src="https://github.com/jjh6297/WNN/blob/main/Figs/thumbnail_landscape.png"/>
 </p>
 
-### WNN Architecture
+## WNN Architecture
 
 WNN is composed of simple two-stream networks that use fully-connected
 layers and an activation network. Feature vectors from those two networks are unified to a feature vector and it is passed through a
@@ -31,7 +31,7 @@ fully-connected layer. The predicted future weight parameters are obtained by ad
 </p>
 
 
-### Dependency
+## Dependency
 
 
 <!-- dependencies: -->
@@ -41,7 +41,7 @@ fully-connected layer. The predicted future weight parameters are obtained by ad
 <!-- | tensorflow | 2.3.0, 2.4.1 | <= 2.0 | -->
 
 
-### Usage
+## Usage
 
 We provide a simple plug-in source code that can be added to your source code by using a callback function extending tf.keras.callbacks.Callback:
 <!---WNN can be easily used as a callback function extending tf.keras.callbacks.Callback: -->
