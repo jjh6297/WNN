@@ -49,12 +49,13 @@ We provide a simple plug-in source code that can be added to your source code by
 import tensorflow as tf
 import tensorflow.keras
 from WNN import *
-
 .
 .
 .
-
 model.fit(..., callbacks=[WeightForecasting()])
+.
+.
+.
 ```
 ## Pre-trained Weights
 Pre-trained weights of WNN are included.
