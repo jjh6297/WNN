@@ -5,7 +5,9 @@
 
 ## Updates
 
+
 - 03/07/2023: Project page built
+- 11/07/2023: Pytorch version uploaded
 
 
 ## Abstract
