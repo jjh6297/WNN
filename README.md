@@ -40,12 +40,6 @@ fully-connected layer. The predicted future weight parameters are obtained by ad
 | tensorflow | 2.3.0, 2.9.0 | <= 2.0 |
 <!-- | tensorflow | 2.3.0, 2.4.1 | <= 2.0 | -->
 
-## Pytorch Version
-
-We also provide the pytorch implmentation of WNN through this link:
-[Pytorch Imlementation Link](https://github.com/jjh6297/WNN/tree/main/WNN_Pytorch)
-
-We would like to thank Anthony Rigoli at University of Strasbourg for implementing the pytorch source code and sharing it.
 
 ## Usage
 
@@ -82,6 +76,14 @@ Training with WNN on CIFAR10:
 ```
 python CIFAR10_with_WNN.py
 ```
+
+## Pytorch Version
+
+We also provide the pytorch implmentation of WNN through this link:
+[Pytorch Imlementation Link](https://github.com/jjh6297/WNN/tree/main/WNN_Pytorch)
+
+We would like to thank Anthony Rigoli at University of Strasbourg for implementing the pytorch source code and sharing it.
+
 
 ## Poster
 
