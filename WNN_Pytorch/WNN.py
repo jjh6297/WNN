@@ -123,7 +123,7 @@ def get_BiasLayer_pred(layer, predictor, NumLength=5):
     maxval = np.tile(np.max(Layer,1, keepdims=True)-np.min(Layer,1, keepdims=True)+1e-8  ,(1, dim)) 
 
     Layer=Layer/(maxval+0.00001)/2.       
-    return (layer[:,NumLength-1] +  predictor.predict([Layer, Layer[:,1:NumLength] - Layer[:,0:NumLength-1]], batch_size = 100000)[:,0])*(maxval[:,0]+0.00001)*2. +minval[:,0]
+    return (Layer[:,NumLength-1] +  predictor.predict([Layer, Layer[:,1:NumLength] - Layer[:,0:NumLength-1]], batch_size = 100000)[:,0])*(maxval[:,0]+0.00001)*2. +minval[:,0]
 
 
 

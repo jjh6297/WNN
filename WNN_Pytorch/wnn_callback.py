@@ -45,7 +45,7 @@ def get_BiasLayer_pred(layer, predictor, NumLength=5):
     maxval = torch.tile(torch.max(Layer,1, keepdims=True)[0]-torch.min(Layer,1, keepdims=True)[0]+1e-8  ,(1, dim)) 
 
     Layer=Layer/(maxval+0.00001)/2.       
-    return (layer[:,NumLength-1] +  predictor([Layer, Layer[:,1:NumLength] - Layer[:,0:NumLength-1]])[:,0])*(maxval[:,0]+0.00001)*2. +minval[:,0]
+    return (Layer[:,NumLength-1] +  predictor([Layer, Layer[:,1:NumLength] - Layer[:,0:NumLength-1]])[:,0])*(maxval[:,0]+0.00001)*2. +minval[:,0]
 
 global WeightsSet
 global BiasSet
